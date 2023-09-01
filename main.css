@@ -1,0 +1,61 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#cabecalho,
+footer {
+    background-color: #AB6F44;
+}
+
+#cabecalho a.nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+#cabecalho .nav-link.active,
+.nav-cardapio .nav-link.active {
+    background-color: #6F4E37;
+}
+
+.navbar .nav-link:hover,
+.text-colored,
+.nav-cardapio .nav-link:hover {
+    color: #6F4E37;
+}
+
+.section-title {
+    font-family: 'Pacifico', cursive;
+}
+
+#sobre-a-cafeteria,
+#cardapio {
+    background-color: #e7d3c6;
+}
+
+.text-white,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.btn-cardapio {
+    background-color: #6F4E37;
+    text-transform: uppercase;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
